@@ -1,8 +1,9 @@
 ---
-title: learn
+title: Plan for learn
 date: 2017-06-30 16:43:53
 tags:
-- learn
+- Hadoop
+- Java
 categories:
 - 计划
 ---
