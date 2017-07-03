@@ -67,6 +67,15 @@ theme: next
 
 avatar: /images/avatar.jpg
 
+# Algolia search
+algolia:
+  applicationID: '1C89JQFCCB'
+  apiKey: '5857b4b71a9997760f3542d12f247e2c'
+  adminApiKey: 'ef13c5c4dcbe3ec3d2b576c13cfa8e4a'
+  indexName: 'blog'
+  chunkSize: 5000
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
