@@ -1,0 +1,37 @@
+# 配置语言及相应版本
+language: node_js
+node_js: stable
+
+# 项目所在分支
+branches:
+  only:
+  - hexo
+
+# 缓存node 库
+cache:
+  directories:
+    - node_modules
+
+# 安装依赖
+install:
+- cnpm install
+
+# 生成网站静态文件
+script:
+- hexo g
+
+# 网站部署
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "samson_xu"
+  - git config user.email "xy_xu@foxmail.com"
+  - git add .
+  - git commit -m "Update docs"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+
+# 添加环境变量
+env:
+ global:
+   - GH_REF: github.com/samson-xu/samson-xu.github.io.git
+
