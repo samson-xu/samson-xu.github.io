@@ -2,6 +2,7 @@
 title: 个人简介
 date: 2017-06-30 10:57:59
 type: about
+comments: false
 ---
 
 ![me](/images/me.png)

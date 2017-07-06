@@ -5,7 +5,7 @@ tags:
 - Hadoop
 categories:
 - Hadoop
-comments: ture
+comments: true
 ---
 
 # <center>Hadoop简介
