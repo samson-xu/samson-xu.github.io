@@ -16,8 +16,9 @@ cache:
 install:
 - npm install
 
-# 生成网站静态文件
+# 给搜索引擎建立索引，并且生成静态网站文件
 script:
+- hexo  algolia
 - hexo g
 
 # 网站部署
