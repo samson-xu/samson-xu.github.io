@@ -65,7 +65,8 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
-avatar: /images/avatar.jpg
+#avatar: /images/avatar.jpg
+avatar: http://osp5fgfht.bkt.clouddn.com/avatar.jpg-yy
 
 # Algolia search
 algolia:
