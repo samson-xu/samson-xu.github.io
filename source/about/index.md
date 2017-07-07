@@ -5,7 +5,7 @@ type: about
 comments: false
 ---
 
-![me](/images/me.png)
+![me](http://osp5fgfht.bkt.clouddn.com/me.png-yy)
 
 **专业：**生物信息学
 **毕业院校：**湖南农业大学
