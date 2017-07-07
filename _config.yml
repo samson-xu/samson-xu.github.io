@@ -76,7 +76,6 @@ algolia:
   indexName: 'blog'
   chunkSize: 5000
 
-
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
