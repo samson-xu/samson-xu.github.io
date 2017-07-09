@@ -19,6 +19,7 @@ install:
 - npm install hexo-wordcount --save
 - npm install hexo-neat
 - npm install minimist
+- npm install command-exists
 
 
 # 给搜索引擎建立索引，并且生成静态网站文件
