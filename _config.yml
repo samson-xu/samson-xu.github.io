@@ -89,8 +89,8 @@ neat_css:
     - '*.min.css'
 
 neat_js:
-  enable: true
-  mangle: true
+  enable: false
+  mangle: false
   output:
   compress:
   exclude:
