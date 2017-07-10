@@ -7,11 +7,6 @@ branches:
   only:
   - hexo
 
-# 缓存node 库
-cache:
-  directories:
-    - node_modules
-
 # 安装依赖
 install:
 - npm install
@@ -43,3 +38,7 @@ env:
  global:
    - GH_REF: github.com/samson-xu/samson-xu.github.io.git
 
+# 缓存node 库
+cache:
+  directories:
+    - node_modules
