@@ -207,6 +207,7 @@
           {% if theme.post_wordcount.wordcount or theme.post_wordcount.min2read %}
             <div class="post-wordcount">
               {% if theme.post_wordcount.wordcount %}
+                <span class="post-meta-divider">|</span>
                 {% if not theme.post_wordcount.separated_meta %}
                   <span class="post-meta-divider">|</span>
                 {% endif %}
