@@ -49,7 +49,7 @@ menu:
   categories: /categories/
   tags: /tags/
   about: /about/
-  #sitemap: /sitemap.xml
+  sitemap: /baidusitemap.xml
   #commonweal: /404.html
 
 
