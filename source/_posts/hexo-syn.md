@@ -2,10 +2,10 @@
 title: Hexo博客多终端同步 
 date: 2017-07-01 21:45:31
 tags:
-- hexo
+- Hexo
 - 同步
 categories:
-- hexo
+- Hexo
 comments: true
 ---
 
