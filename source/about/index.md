@@ -11,7 +11,7 @@ comments: false
 **毕业院校：**湖南农业大学
 **姓名：**许详阳
 **英语水平：**CET-6
-**邮箱：**xy_xu@foxmail.com
+**邮箱：**<xy_xu@foxmail.com>
 
 ## 个人技能
 - 熟悉 NGS，PacBio, BioNano测序技术及相关原理
