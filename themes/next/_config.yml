@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2016
 
 # icon between year and author @Footer
 authoricon: heart
@@ -209,11 +209,11 @@ sidebar:
 
 
 # Blog rolls
-#links_title: Links
+links_title: Link
 #links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  Blog: http://www.xyxu.online
 
 
 # ---------------------------------------------------------------
@@ -293,14 +293,6 @@ reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作�
 wechatpay: /images/wechatpay_reward.jpg
 alipay: /images/alipay_reward.jpg
 
-# 建站时间
-since: 2016
-
-# 友情链接
-links_title: Links
-links:
-  Blog: http://xyxu.online/
-
 # MathJax Support
 mathjax:
   enable: false
@@ -329,7 +321,7 @@ disqus:
 #hypercomments_id:
 
 # Gentie productKey
-gentie_productKey: 6baf95a927674c73a27768991b10911e
+# gentie_productKey: 6baf95a927674c73a27768991b10911e
 
 # changyan
 changyan:
@@ -343,22 +335,22 @@ changyan:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8yOTU3MS82MTM5
 
 # Baidu Share
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
+baidushare:
+  type: slide
 
 # Share
-jiathis: true
+# jiathis: true
 # Warning: JiaThis does not support https.
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+# duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
