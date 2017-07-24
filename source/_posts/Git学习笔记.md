@@ -8,6 +8,8 @@ categories:
 comments: true
 ---
 
+![Git common command](http://osp5fgfht.bkt.clouddn.com/git.png)
+
 1. 设置个人环境变量
 ``` bash
 $ git config --global user.name "Your Name"
