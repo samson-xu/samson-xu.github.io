@@ -4,6 +4,7 @@ date: 2017-07-05 10:33:47
 tags:
 - Hadoop
 categories:
+- 大数据
 - Hadoop
 comments: true
 ---
