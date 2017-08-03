@@ -63,6 +63,6 @@ comments: false
 
 ## 发表文章
 
-1. Qin, G., Xu, C., Ming, R., Tang, H., Guyot, R., Kramer, E., Hu, Y., Yi, X., Qi, Y., <font color=#0099ff>Xu, X.</font>, Gao, Z., Pan, H., Jian, J., Tian, Y., Yue, Z. and Xu, Y. (2017). The pomegranate (Punica granatum L.) genome and the genomics of punicalagin biosynthesis. The Plant Journal.
+1. Qin, G., Xu, C., Ming, R., Tang, H., Guyot, R., Kramer, E., Hu, Y., Yi, X., Qi, Y., <font color=#0099ff>Xu, X.</font>, Gao, Z., Pan, H., Jian, J., Tian, Y., Yue, Z. and Xu, Y. (2017). [The pomegranate (Punica granatum L.) genome and the genomics of punicalagin biosynthesis](http://onlinelibrary.wiley.com/doi/10.1111/tpj.13625/full). The Plant Journal.
 
 
