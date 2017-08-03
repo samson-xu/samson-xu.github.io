@@ -5,6 +5,7 @@ tags:
 - Hexo
 - 同步
 categories:
+- Web
 - Hexo
 comments: true
 ---

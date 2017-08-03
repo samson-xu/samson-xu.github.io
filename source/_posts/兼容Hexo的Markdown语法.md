@@ -5,6 +5,7 @@ tags:
 - Hexo  
 - Markdown  
 categories:  
+- Web
 - Hexo  
 comments:  
 ---
