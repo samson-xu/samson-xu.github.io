@@ -25,7 +25,7 @@ cd gcc-4.8.0
 mkdir gcc-build-4.8.0
 mkdir gcc-install-4.8.0
 cd gcc-build-4.8.0
-../configure --prefix=../gcc-install-4.8.0
+../configure --prefix=/path/to/gcc-install-4.8.0
 make && make install
 ```
 
