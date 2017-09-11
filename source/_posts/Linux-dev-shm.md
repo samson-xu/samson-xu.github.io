@@ -37,7 +37,7 @@ mount -o size=1500M -o nr_inodes=1000000 -o noatime,nodiratime -o remount /dev/s
 mount -o remount /dev/shm
 ```
 
-三、/dev/shm应用
+# /dev/shm应用
 
 首先在/dev/shm建个tmp文件夹，然后与实际/tmp绑定
 ```
