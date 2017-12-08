@@ -64,5 +64,5 @@ comments: false
 ## 发表文章
 
 1. Qin, G., Xu, C., Ming, R., Tang, H., Guyot, R., Kramer, E., Hu, Y., Yi, X., Qi, Y., <font color=#0099ff>Xu, X.</font>, Gao, Z., Pan, H., Jian, J., Tian, Y., Yue, Z. and Xu, Y. (2017). [The pomegranate (Punica granatum L.) genome and the genomics of punicalagin biosynthesis](http://onlinelibrary.wiley.com/doi/10.1111/tpj.13625/full). The Plant Journal.
-
+2. Harkess, A., Zhou, J., Xu, C., Bowers, J., Van der Hulst, R., Ayyampalayam, S., Mercati, F., Riccardi, P., McKain, M., Kakrana, A., Tang, H., Ray, J., Groenendijk, J., Arikit, S., Mathioni, S., Nakano, M., Shan, H., Telgmann-Rauber, A., Kanno, A., Yue, Z., Chen, H., Li, W., Chen, Y., <font color=#0099ff>Xu, X.</font>, Zhang, Y., Luo, S., Chen, H., Gao, J., Mao, Z., Pires, J., Luo, M., Kudrna, D., Wing, R., Meyers, B., Yi, K., Kong, H., Lavrijsen, P., Sunseri, F., Falavigna, A., Ye, Y., Leebens-Mack, J. and Chen, G. (2017). [The asparagus genome sheds light on the origin and evolution of a young Y chromosome](https://www.nature.com/articles/s41467-017-01064-8#Sec23). Nature Communications, 8(1).
 
