@@ -29,20 +29,21 @@ comments: false
 ## 工作经历
 2013.04-2013.10 &emsp;&emsp;&emsp;&emsp; 中科院计算所实习（miRNA信息分析，测序中国网站信息自动化更新）
 2013.12-2016.07  &emsp;&emsp;&emsp;&emsp; 华大基因科技服务有限公司（大项目部）
-2016.08-至今 &emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 深圳市乐土精准医疗科技有限公司（大数据中心）
+2016.08-2018.04 &emsp;&emsp;&emsp;&emsp; 深圳市乐土精准医疗科技有限公司（大数据中心）
+2018.05-至今 &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;深圳市中科普瑞基因科技有限公司（产品研发部）
 
 ## 项目经验
-2016.08-至今，深圳市乐土精准医疗科技有限公司：
-1. 超算资源调研（深圳超算、广州超算），包括：硬件配置、软件资源、任务调度方式测试等等；
+2016.08-2018.04，深圳市乐土精准医疗科技有限公司：
+1. 超算资源调研（深圳超算、广州超算），包括：硬件配置、软件资源、任务调度方式、集群测试等等；
 2. 常用生物信息分析工具安装调试，如BWA，Samtools，Picard，GATK，ANNOVAR，SnpEff，bedtools等等；
 3. 搭建全基因组（WGS），全外（WES）信息分析流程；
 4. 开发运用于广州超算的并行任务投递系统；
-5. BItools开发（登记号：2017SR099652），报告自动化系统开发(登记号：2017SR099298)，并申请相应的软件著作权；
+5. NIPT、UPD、CNV信息分析算法开发；
 6. MassARRAY测序数据自动化分析程序开发；
 7. 集群规划、建设、部署和日常运维；
 8. 前端HTML，CSS，JS技术学习，自动化报告程序开发，个人技术博客搭建（[www.xyxu.online](http://www.xyxu.online)）；
 9. 基于VirtualBox，搭建Hadoop完全分布式集群；
-10. docker相关技术学习了解；
+10. docker相关技术学习；
 
 2013.12-2016.07，华大基因科技服务有限公司：
 1. 中小型商业项目的分析交付，如高体鰤组装，拟南芥重测序，以及一些微生物的RNA-ref， RNA-denovo等等项目；
@@ -61,8 +62,14 @@ comments: false
 3. 完成miRNA信息分析，撰写相应报告；
 4. 熟练使用R语言，使用R制作统计图表；
 
-## 发表文章
+## 软著
+1. BItools（登记号：2017SR099652）
+2. 报告自动化系统(登记号：2017SR099298)
 
+## 专利
+1. 唾液采集装置（专利号：[201621455146](https://patents.google.com/patent/CN206430944U/zh)）
+
+## 文章
 1. Qin, G., Xu, C., Ming, R., Tang, H., Guyot, R., Kramer, E., Hu, Y., Yi, X., Qi, Y., <font color=#0099ff>Xu, X.</font>, Gao, Z., Pan, H., Jian, J., Tian, Y., Yue, Z. and Xu, Y. (2017). [The pomegranate (Punica granatum L.) genome and the genomics of punicalagin biosynthesis](http://onlinelibrary.wiley.com/doi/10.1111/tpj.13625/full). The Plant Journal.
 2. Harkess, A., Zhou, J., Xu, C., Bowers, J., Van der Hulst, R., Ayyampalayam, S., Mercati, F., Riccardi, P., McKain, M., Kakrana, A., Tang, H., Ray, J., Groenendijk, J., Arikit, S., Mathioni, S., Nakano, M., Shan, H., Telgmann-Rauber, A., Kanno, A., Yue, Z., Chen, H., Li, W., Chen, Y., <font color=#0099ff>Xu, X.</font>, Zhang, Y., Luo, S., Chen, H., Gao, J., Mao, Z., Pires, J., Luo, M., Kudrna, D., Wing, R., Meyers, B., Yi, K., Kong, H., Lavrijsen, P., Sunseri, F., Falavigna, A., Ye, Y., Leebens-Mack, J. and Chen, G. (2017). [The asparagus genome sheds light on the origin and evolution of a young Y chromosome](https://www.nature.com/articles/s41467-017-01064-8#Sec23). Nature Communications, 8(1).
 
