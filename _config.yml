@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.xyxu.online
+url: http://blog.xyxu.top
 root: /
 permalink: :year-:month-:day-:title.html
 permalink_defaults:
