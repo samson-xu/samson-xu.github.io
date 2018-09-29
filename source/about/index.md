@@ -41,7 +41,7 @@ comments: false
 5. NIPT、UPD、CNV信息分析算法开发；
 6. MassARRAY测序数据自动化分析程序开发；
 7. 集群规划、建设、部署和日常运维；
-8. 前端HTML，CSS，JS技术学习，自动化报告程序开发，个人技术博客搭建（[www.xyxu.online](http://www.xyxu.online)）；
+8. 前端HTML，CSS，JS技术学习，自动化报告程序开发，个人技术博客搭建（[blog.xyxu.top](http://blog.xyxu.top)）；
 9. 基于VirtualBox，搭建Hadoop完全分布式集群；
 10. docker相关技术学习；
 
