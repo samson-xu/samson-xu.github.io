@@ -44,7 +44,7 @@ wget http://hgdownload.cse.ucsc.edu/goldenpath/hg19/database/refGene.txt.gz
 ```
 
 # 基因示意图
-![gene_structure](http://osp5fgfht.bkt.clouddn.com/gene_structure.png-yy)
+![gene_structure](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/gene_structure.png)
 
 # 成熟mRNA示意图
-![mRNA_structure](http://osp5fgfht.bkt.clouddn.com/mRNA_structure.png-yy)
+![mRNA_structure](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/mRNA_structure.png)

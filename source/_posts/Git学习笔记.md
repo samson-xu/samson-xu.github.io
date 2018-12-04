@@ -8,7 +8,7 @@ categories:
 comments: true
 ---
 
-![Git common command](http://osp5fgfht.bkt.clouddn.com/git.png)
+![Git common command](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/git.png)
 
 1. 设置个人环境变量
 ``` bash

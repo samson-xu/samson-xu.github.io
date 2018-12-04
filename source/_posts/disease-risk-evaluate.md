@@ -9,7 +9,7 @@ comments:
 
 在评估每种疾病的患病风险时，首先查找国际上对该疾病的研究人群以及样品数量并进行筛选与评估。对于GWAS研究，根据P值、OR值、连锁不平衡系数D’等参数对突变位点进行评估；NGS相关的研究，需要对突变进行基因组注释，筛选有意义的突变，根据疾病数据库和ACMG标准和指南对突变进行分类以及致病风险评估。最后根据评估模型对疾病风险进行评估。评估流程如下图所示。
 
-![disease-1](http://osp5fgfht.bkt.clouddn.com/disease-1.jpg-yy)
+![disease-1](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/disease-1.jpg)
 
 # 人群筛选和样品数量
 在PubMed、LISTA、Web of Science、arXiv等数据库检索疾病与基因相关的文献，根据研究对象，分为中国人群、亚洲人群以及欧美人群等。把中国人群的研究论文归为高优先级，亚洲人群的研究论文归为中优先级，欧美人群归为低优先级。
@@ -28,22 +28,22 @@ OR值（odds ratio）又称比值比、优势比。是流行病学研究中病�
 
 # 突变位点（SNP、InDel、CNV、SV）基因组注释
 对于突变位点，需要注释该位点位于基因组上的位置，dbsnp，千人基因组频率，ESP6500频率，Inhouse频率，氨基酸变化，SIFT、Polyphen、MutationTaster、GERP++等多个功能预测。编码区域的非同义突变、移码突变、拷贝数变化、stopgain、stoploss，可变剪切，调控区域，结构变异等突变都是有意义的突变。对于已知的致病突变，可直接参考公共疾病数据库；未知的基因突变，需要根据美国医学遗传学与基因组学学会(ACMG Standards and Guidelines)2015年标准与指南进行评估。下图为ACMG突变分类指南。
-![disease-2](http://osp5fgfht.bkt.clouddn.com/disease-2.png-yy)
+![disease-2](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/disease-2.png)
 
 # 疾病风险评估
 ## 单个突变位点导致的疾病
 对于单个突变位点导致的疾病，基于疾病在人群或种族中的发病率以及突变位点在人群或种族中的基因型频率，可直接计算该突变导致的疾病风险。其中Pr(D)为疾病发病率，OR为比值比，Pr(G)为基因型频率。
 
-![disease-3](http://osp5fgfht.bkt.clouddn.com/disease-3.png-yy)
+![disease-3](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/disease-3.png)
 
 ## 多个突变位点导致的疾病
 OR*m代表单个SNP的特定基因型的Odds radio，综合所有的突变位点计算出ORc*值。ORc*值为带有某些特定基因型组合特征的个体，其患病风险相较于该个体所在种群平均患病风险的比值。odds(D)可以通过Pr(D)（疾病发病率）求出。最终的
 
-![disease-4](http://osp5fgfht.bkt.clouddn.com/disease-4.png-yy)
+![disease-4](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/disease-4.png)
 
 即为多个位点突变导致的疾病风险。
 
-![disease-5](http://osp5fgfht.bkt.clouddn.com/disease-5.png-yy)
+![disease-5](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/disease-5.png)
 
 # 高、中、低、正常疾病风险的说明
 **高风险**：该疾病的相对患病风险高于常人4倍及以上，需要重点关注。可采取的措施包括：

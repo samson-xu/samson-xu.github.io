@@ -25,7 +25,7 @@ Text alignment viewer (based on the ncurses library). In the viewer, press '?' f
 ```buildoutcfg
 samtools tview -p chr1:10439 *.bam ucsc.hg19.fasta
 ```
-![samtools-tview](http://osp5fgfht.bkt.clouddn.com/samtools-tview.jpg)
+![samtools-tview](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/samtools-tview.jpg)
 
 
 # viewer参数

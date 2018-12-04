@@ -8,10 +8,10 @@ categories:
 ---
 
 # <center> 美丽新娘
-![yy1](http://osp5fgfht.bkt.clouddn.com/yy1.jpg-yy)
+![yy1](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/yy1.jpg)
 # <center> 畅游橘子洲
-![we1](http://osp5fgfht.bkt.clouddn.com/we1.jpg-yy)
+![we1](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/we1.jpg)
 # <center> 骑行大梅沙
-![we2](http://osp5fgfht.bkt.clouddn.com/we2.jpg-yy)
+![we2](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/we2.jpg)
 # <center> 魅力盐田
-![me2](http://osp5fgfht.bkt.clouddn.com/me2.jpg-yy)
+![me2](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/me2.jpg)

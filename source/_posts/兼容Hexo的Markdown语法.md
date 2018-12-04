@@ -63,11 +63,11 @@ comments:
 ## 代码
 ```
 欢迎来到我的博客[MyBlog](http://www.xyxu.online)
-我的靓照![Me](http://osp5fgfht.bkt.clouddn.com/me.png-yy)
+我的靓照![Me](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/me.png)
 ```
 ## 显示效果
 欢迎来到我的博客[MyBlog](http://www.xyxu.online)
-我的靓照![Me](http://osp5fgfht.bkt.clouddn.com/me.png-yy)
+我的靓照![Me](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/me.png)
 ---
 # <center>引用链接
 ## 代码

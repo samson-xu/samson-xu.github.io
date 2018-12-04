@@ -10,14 +10,14 @@ comments:
 
 # 桌面测序仪比较
 ##  适用范围
-![illumina-1](http://osp5fgfht.bkt.clouddn.com/illumina-1.png-yy)
+![illumina-1](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/illumina-1.png)
 ## 通量
-![illumina-2](http://osp5fgfht.bkt.clouddn.com/illumina-2.png-yy)
+![illumina-2](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/illumina-2.png)
 
 
 # 高通量测序仪比较
 ##  适用范围
-![illumina-1](http://osp5fgfht.bkt.clouddn.com/illumina-1.png-yy)
+![illumina-1](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/illumina-1.png)
 
 ## 通量
-![illumina-1](http://osp5fgfht.bkt.clouddn.com/illumina-1.png-yy)
+![illumina-1](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/illumina-1.png)

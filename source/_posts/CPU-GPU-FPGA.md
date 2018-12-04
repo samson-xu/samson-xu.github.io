@@ -11,11 +11,11 @@ comments:
 ---
 
 回顾人工智能的发展史，我们发现深度学习并不是一个新兴的概念，早在80年代末期，Geoffrey Hinton和Yann LeCun等学者就提出深度学习的方法并且解决了手写体数字的识别问题。但是遗憾的是，进入90年代后，一方面受限于对于此套理论的认识不完全和当时硬件低下的计算能力，再者业界纷纷开始追逐摩尔定律所带来的红利，深度学习的风潮随之沉寂下去。
-![dl1](http://osp5fgfht.bkt.clouddn.com/dl1.jpg)
+![dl1](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/dl1.jpg)
 
 
 然而，伴随着摩尔定律带来的芯片计算能力和存储能力大幅提升和大数据时代的来临，一个“深度学习+大数据”的模型组合将人工智的研究能推向了一个新的高潮。诚然，深度学习的核心驱动力是算法：利用算法/函数去模仿和逼近人脑思维方式。而这些算法/模型最终还是要依赖高性能的硬件来实现对于数据的处理。说起关于计算机数据处理的硬件。毫无疑问CPU是第一个被大家联想到的。 但是在深度学习的世界里，CPU并不是一个最佳的选择。好马配好鞍，今天，我们就来聊一聊深度学习中的硬件。
-![dl2](http://osp5fgfht.bkt.clouddn.com/dl2.jpg)
+![dl2](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/dl2.jpg)
 
 
 # 深度学习对硬件的需求
@@ -23,12 +23,12 @@ comments:
 
 
 在数据训练阶段，大量的标记或者未标记的数据被输入深度神经网络中进行监督或者无监督的学习。所谓监督学习，就是输出是有标记的学习，让模型通过训练，迭代收敛到目标值；而非监督学习不需要人为输入标签，模型通过学习发现数据的结构特征。从而使机器能够在大数据中提取更多的特征值。在最近的《最强大脑》中，百度的机器人“小度”展示了强大的识别能力，据百度首席科学家吴恩达透露，在声纹识别任务中“小度”所使用的神经网络是在大约 5000 多小时的音频数据基础上训练出来的。这亿万级的参数、千亿的样本和千亿特征训练使得神经网络对于语音识别变得相当准确。
-![dl3](http://osp5fgfht.bkt.clouddn.com/dl3.jpg)
+![dl3](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/dl3.jpg)
 
 
 随着深度神经网络模型层数的增多，与之相对应的权重参数成倍的增长，从而对硬件的计算能力有着越来越高的需求，尤其是在数据训练的阶段。因此，深度学习训练领域的前沿逐渐从算法转移到了对于高性能计算（HPC）的追逐上。目前被业内广泛接受的是“CPU+GPU”的异构模式和“MIC （Many Integrated Core）”众核同构来实现高性能计算。
-![dl4](http://osp5fgfht.bkt.clouddn.com/dl4.jpg)
-![dl5](http://osp5fgfht.bkt.clouddn.com/dl5.jpg)
+![dl4](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/dl4.jpg)
+![dl5](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/dl5.jpg)
 
 
 推断阶段就是利用训练中所获得的特征值去对新的输入数据进行判断或者预测。从应用上来说，推断可以分为两大类：线上数据中心的推断和移动设备中的推断。
@@ -39,7 +39,7 @@ comments:
  
  
 而移动设备中的推断更强调在高性能计算和低功耗中寻找一个平衡点。在这个领域的深度学习的执行还是更多的依赖于“CPU+FPGA”与“ASIC”。
- ![dl6](http://osp5fgfht.bkt.clouddn.com/dl6.jpg)
+ ![dl6](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/dl6.jpg)
 
 
 # 数据的训练：CPU与GPU之争
@@ -50,16 +50,16 @@ comments:
 但是它又不是太重要：相比于其他硬件加速工具，传统的CPU在架构上就有着先天的弱势。
 
 
-![dl7](http://osp5fgfht.bkt.clouddn.com/dl7.jpg)
+![dl7](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/dl7.jpg)
 上图是CPU与GPU内部结构上的对比，总体上来说二者都是由控制器（Control），寄存器（Cache、DRAM）和逻辑单元（ALU：Arithmetic Logic Unit）构成。但是三者的比例却有很大的不同。在CPU中控制器和寄存器占据了结构中很大一部分，与之相反，在GPU中，逻辑单元的规模则是远远超过其他二者之和。这种不同的构架就决定了CPU在指令的处理/执行，函数的调用上有着很好的发挥，但由于逻辑单元所占比重较小，相对于GPU而言，在数据的处理方面（算术运算或者逻辑运算）的能力就弱了很多。
  
 
 我们拿NIVIDA公司基于Maxwell构架的GPU来详细说明。这颗代号GM200的显示核心主要由4个图形处理集群（GPC：Graphics Processing Clusters ），16个流处理集群（SMM：Steaming Multiprocess）和4个64bit显存控制器组成。每个流处理集群中包含了4个调度器（Warp），每个调度器又控制着32个逻辑计算核心（Core），这些Core是实现逻辑计算的基本单元。
- ![dl8](http://osp5fgfht.bkt.clouddn.com/dl8.jpg)
+ ![dl8](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/dl8.jpg)
 
 
 GPU进行数据处理的过程可以描述成：GPU从CPU处得到数据处理的指令，把大规模、无结构化的数据分解成很多独立的部分然后分配给各个流处理器集群。每个流处理器集群再次把数据分解，分配给调度器所控制的多个计算核心同时执行数据的计算和处理。如果一个核心的计算算作一个线程，那么在这颗GPU中就有32×4×16， 2048个线程同时进行数据的处理。尽管每个线程/Core的计算性能、效率与CPU中的Core相比低了不少，但是当所有线程都并行计算，那么累加之后它的计算能力又远远高于CPU。对于基于神经网络的深度学习来说，它硬件计算精度要求远远没有对其并行处理能力的要求来的迫切。而这种并行计算能力转化为对于硬件的要求就是尽可能大的逻辑单元规模。通常我们使用每秒钟进行的浮点运算（Flops/s）来量化的参数。不难看出，对于单精度浮点运算，GPU的执行效率远远高于CPU。
-![dl9](http://osp5fgfht.bkt.clouddn.com/dl9.jpg)
+![dl9](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/dl9.jpg)
 
 
 除了计算核心的增加，GPU另一个比较重要的优势就是他的内存结构。首先是共享内存。在NVIDIA披露的性能参数中，每个流处理器集群末端设有共享内存。相比于CPU每次操作数据都要返回内存再进行调用，GPU线程之间的数据通讯不需要访问全局内存，而在共享内存中就可以直接访问。这种设置的带来最大的好处就是线程间通讯速度的提高（速度：共享内存》全局内存）。
@@ -81,7 +81,7 @@ GPU进行数据处理的过程可以描述成：GPU从CPU处得到数据处理�
 在其于去年发布的代号“KNL（Knignts Landing）融核”处理器介绍中，我们发现英特尔针对目前CPU的种种弊端做出了很大的调整：首先在硬件架构上集成了更多的核心（72颗），这意味着有更多的逻辑单元去进行运算。其次是英特尔为这些核心增加了“可变精度”的支持，在低精度模式下（深度学习通常使用单精度）大幅度提高其浮点运算能力（3+TFlops），甚至接近GPU的性能指标。在内存支持方面，它不仅可以支持更多的内存，而且大幅提高了与内存间数据通讯的带宽，这也解决了目前CPU数据传输速度的弊端。
 
 
-![dl10](http://osp5fgfht.bkt.clouddn.com/dl10.jpg)
+![dl10](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/dl10.jpg)
 与这颗处理器相匹配的，是“MIC（Many Integrated Core）”众核同构计算模型。也是有别于其他加速硬件而被称为众核计算的原因：它可以完美运行X86代码。简而言之就是它可以直接脱离CPU直接与内存相连来进行深度学习。相对于“CPU+加速硬件”的异构模型，这种众核计算在很大程度上避免了CPU与加速硬件之间的通讯带宽问题。从而优化深度学习训练时间。
 
 
@@ -103,14 +103,14 @@ FPGA全称是Field Programmable Gate Array：可编程逻辑门阵列。相对�
 
  
 ASIC（Application-Specific Integrated Circuit）是一种为专门目的而设计的集成电路。是指应特定用户要求和特定电子系统的需要而设计、制造的集成电路。ASIC的特点是面向特定用户的需求。亮点在于运行速度在同等条件下比FPGA快。根据谷歌披露的数据，完全版的“AlphaGo”拥有1920颗CPU和280颗GPU，除此此外，还有它还安装一定数量的TPU（Tensor Processing Unit）。 尽管谷歌一直对TPU语焉不详，业内普遍认为“AlphaGo”对围棋局势的预判所使用的置信网络（Value network）就是依赖TPU的发挥。
-![dl11](http://osp5fgfht.bkt.clouddn.com/dl11.jpg)
+![dl11](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/dl11.jpg)
 
 
 与GPU/CPU相比，FPGA与ASIC拥有良好的运行能效比，在实现相同性能的深度学习算法中，GPU所需的功耗远远大于FGPA与ASIC。浪潮与Intel 于去年底FPGA加速卡 F10A 最高性能的加速卡，单芯片峰值运算能力达到1.5TFlops，功耗才35W，每瓦特功率42GFlops，是GPU的数倍之高。其次，对于SIMD计算，GPU/CPU尽管具有很多逻辑核心，但是受限于冯诺依曼结构，无法发挥其并行计算的特点。而FPGA与ASIC不仅可以做到并行计算，而且还能实现流水处理。这大大减小了输入与输出的延时比。
 
  
 下图是FPGA与ASIC在设计环节的对比。FPGA从设计的角度来说更加的灵活多变。只要用 Verilog或者其他描述语言定义好内部的逻辑结构即可实现硬件加速器功能。而ASIC则更像是一锤子卖卖：针对特定功能深度学习算法量身定做的。而且ASIC的设计和制造要经过很多的验证和物理设计，与FPGA的即插即用相比，需要更多的时间，而且从设计到制造，付出的代价也相应的高了很多。一般来说，基于FPGA的开发周期大约为6个月，而相同规格的ASIC则需要1年左右。
-![dl12](http://osp5fgfht.bkt.clouddn.com/dl12.jpg)
+![dl12](https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/dl12.jpg)
 
 
 但是话又说回来，事物都有两面性。FPGA的的架构固然带来了应用上的灵活性和低成本，但是从执行的效率上来说，它又远远比不上ASIC，FPGA的通用性必然导致冗余。FPGA的运算电路基于查找表，比如说，FPGA内部有1000万个自定义逻辑部件，一个4输入的查找表单元需要96个晶体管来支持，而在ASIC上来实现估计只需要10个左右。这些冗余也必然体现在芯片的面积和功耗上。
