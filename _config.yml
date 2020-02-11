@@ -101,4 +101,4 @@ deploy:
   type: git
   repository:
    # github: git@github.com:samson-xu/samson-xu.github.io.git,master
-    coding: git@git.coding.net:samson-xu/samson-xu.git,master
+    coding: git@e.coding.net:samson-xu/samson-xu.git,master
