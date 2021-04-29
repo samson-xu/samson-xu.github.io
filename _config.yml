@@ -69,9 +69,9 @@ avatar: https://blog-1256671606.cos.ap-guangzhou.myqcloud.com/picture/we3.jpg
 
 # Algolia search
 algolia:
-  applicationID: '1C89JQFCCB'
-  apiKey: '5857b4b71a9997760f3542d12f247e2c'
-  adminApiKey: 'ef13c5c4dcbe3ec3d2b576c13cfa8e4a'
+  applicationID: '7A6ANKRADG'
+  apiKey: 'b1dad856ce4cec0d49b5018df6ed0b8a'
+  adminApiKey: 'f967762dcda38fd7b9e60f2daeca0d0e'
   indexName: 'blog'
   chunkSize: 5000
 
